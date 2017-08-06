@@ -42,7 +42,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 
-  gem 'sqlite3', '3.16.0'
+  gem 'sqlite3', '>= 0'
 end
 
 group :development do
